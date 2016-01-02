@@ -1,0 +1,74 @@
+
+#include "CahnH.h"
+#include <iostream>
+#include <cmath>
+#include <random>
+#include <vector>
+#include <stdio.h>
+#include <stdlib.h>
+#include <cstring>
+#include <fstream>
+#include <sstream>
+#include <string>
+#include <iomanip>
+#include <time.h>
+#include "mpi.h"
+#define Random_min  -0.05 //-0.25 // for mim random number generator
+#define Random_max  0.05 //0.25
+#define PHI_old(i,j)     PHI_old[i][j]
+#define gamma(i,j)       gamma[i][j]
+#define Laplacian2(i,j)   Laplacian2[i][j]
+#define gamma_p(i,j)     gamma_p[i][j]
+#define PHI_old_p(i,j)   PHI_old_p[i][j]
+#define Laplacian2_p(i,j) Laplacian2_p[i][j]
+using namespace std;
+
+
+
+CahnHill2D::CahnHill2D()
+      { 
+        nx =0;
+        ny=0;
+        //phi=0; 
+        //       
+        //              }
+        //              CahnHill2D::CahnHill2D(int Nx, int Ny)
+        //                    {
+        //                              
+        //                                        nx=Nx;ny=Ny;delta_x=1.0;delta_y=1.0; delta_t =0.001;M =1.0;b=M;k=M, u=0.5;
+        //                                                  C1=1.0/6.0; C2=1.0/12.0; //C1=1.0/6, C2=1.0/12
+        //                                                            dxx = delta_x;
+        //                                                                      B=0.005; D=0.5;A=1.3;v=1.5;tau=0.36;F=0.5;r=0.5;
+        //                                                                              for(int i=0;i<nx;i++)
+        //                                                                                          { 
+        //                                                                                                        phi.push_back(vector<double>(ny));           }
+        //                                                                                                                 for(int i=0;i<nx;i++)
+        //                                                                                                                             {
+        //                                                                                                                                          for(int j=0;j<ny;j++)
+        //                                                                                                                                                           phi[i][j]=0.0;
+        //                                                                                                                                                                       }
+        //                                                                                                                                                                                 
+        //                                                                                                                                                                                           PHI=new double*[nx];
+        //                                                                                                                                                                                                     PHI_old = new double*[nx];
+        //                                                                                                                                                                                                               gamma = new double*[nx];
+        //                                                                                                                                                                                                                         Laplacian2 = new double*[nx];
+        //                                                                                                                                                                                                                                  for(int i=0;i<nx; i++)
+        //                                                                                                                                                                                                                                              { 
+        //                                                                                                                                                                                                                                                            PHI[i]=new double[ny];
+        //                                                                                                                                                                                                                                                                          PHI_old[i]=new double[ny];
+        //                                                                                                                                                                                                                                                                                        gamma[i]=new double[ny]; 
+        //                                                                                                                                                                                                                                                                                                      Laplacian2[i]=new double [ny];
+        //                                                                                                                                                                                                                                                                                                                  }
+        //                                                                                                                                                                                                                                                                                                                            
+        //                                                                                                                                                                                                                                                                                                                                      for(int i=0;i<nx;i++)
+        //                                                                                                                                                                                                                                                                                                                                                {   
+        //                                                                                                                                                                                                                                                                                                                                                              for(int j=0;j<ny;j++)
+        //                                                                                                                                                                                                                                                                                                                                                                            {   
+        //                                                                                                                                                                                                                                                                                                                                                                                              PHI[i][j]=0.0;
+        //                                                                                                                                                                                                                                                                                                                                                                                                                PHI_old[i][j]=0.0;
+        //                                                                                                                                                                                                                                                                                                                                                                                                                                  gamma[i][j]=0.0;
+        //                                                                                                                                                                                                                                                                                                                                                                                                                                                    Laplacian2[i][j]=0.0;
+        //                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+        //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                 }
+        //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           }
+        //                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   

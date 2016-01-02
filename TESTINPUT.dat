@@ -1,0 +1,3036 @@
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+Constructor called
+dimensions of topology=(10,2,1)
+rank=2, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=11, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=4, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=17, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=13, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=14, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+upper rank=19, nlocal=20, coords=(9,1,0)
+rank=19, nlocal=(20,64,128)
+dimensions of topology=(10,2,1)
+rank=15, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+upper rank=18, nlocal=20, coords=(9,0,0)
+rank=18, nlocal=(20,64,128)
+dimensions of topology=(10,2,1)
+rank=3, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+dimensions of topology=(10,2,1)
+rank=9, nlocal=(12,64,128)
+rank=5, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=6, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=7, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=10, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=8, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=16, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=0, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=12, nlocal=(12,64,128)
+dimensions of topology=(10,2,1)
+rank=1, nlocal=(12,64,128)
+Nlocals=(12,64,128)
+I am rank=1
+Nlocals=(12,64,128)
+I am rank=7
+Nlocals=(12,64,128)
+I am rank=2
+Nlocals=(12,64,128)
+I am rank=11
+Nlocals=(12,64,128)
+I am rank=17
+Nlocals=(12,64,128)
+I am rank=13
+Nlocals=(20,64,128)
+I am rank=19
+Nlocals=(12,64,128)
+I am rank=15
+Nlocals=(12,64,128)
+I am rank=9
+Nlocals=(12,64,128)
+I am rank=6
+Nlocals=(12,64,128)
+I am rank=12
+Nlocals=(12,64,128)
+I am rank=8
+Nlocals=(12,64,128)
+I am rank=4
+Nlocals=(12,64,128)
+I am rank=14
+Nlocals=(12,64,128)
+I am rank=5
+Nlocals=(12,64,128)
+I am rank=3
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+Nlocals=(12,64,128)
+I am rank=0
+Nlocals=(12,64,128)
+I am rank=16
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+Nlocals=(20,64,128)
+I am rank=18
+Nlocals=(12,64,128)
+ intialize data structure
+I am rank=10
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+ intialize data structure
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+RANK=0, NEIGHBOURS=(18,2)
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+I am in laplacianBase with Pz=1
+RANK=0, NEIGHBOURS=(18,2)
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+In second laplacian Pz=1
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
+in finite difference scheme parallel
