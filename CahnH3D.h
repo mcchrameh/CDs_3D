@@ -14,7 +14,7 @@ class CahnHill3D
   protected:
        int nx, ny,nz;
        double delta_t, M, delta_x, delta_y,delta_z,u,b,k, C1,C2,C3;
-       double tau,A,F,v,D,dxx,B,r;
+       double tau,A,F,v,D,dxx,B,r,Max_time_iteration;
        
        double ***PHI,***PHI_old,***gamma,***Laplacian2,*Q, *x,*y,*z;
        int *down1x, *down2x, *up1x, *up2x,*down1x_2, *up1x_2;
@@ -31,7 +31,7 @@ class CahnHill3D
        void SetSecondLaplacian2();
        void FiniteDifferenceScheme();
       
-       
+      // void Read_input_parameters(int *integers, double *rationals);
       
                                                                
   public:
@@ -56,9 +56,11 @@ class CahnHill3D
      
       
 
-class Parallel_CahnHill3D: public  CahnHill3D
+class Parallel_CahnHill3D//: public  CahnHill3D
 {
    protected:
+            double delta_t, M, delta_x, delta_y,delta_z,u,b,k, C1,C2,C3;
+            double tau,A,F,v,D,dxx,B,r,Max_time_iteration;
             int  nlocalx,nlocaly,nlocalz, remainder, N, Nx,Ny,Nz, Procx,Procy,Procz;
             int  rank, size, tag,low, ROW,COL,my3drank, right_nbr, left_nbr, up_nbr,down_nbr, inner_nbr,outer_nbr;
             int  offset,startrow_x,endrow_x, startcol_y,endcol_y, startdepth_z, enddepth_z;
@@ -73,20 +75,20 @@ class Parallel_CahnHill3D: public  CahnHill3D
            int *down1x, *down2x, *up1x, *up2x,*down1x_2, *up1x_2;
    public:
 
+        // Parallel_CahnHill3D();
          Parallel_CahnHill3D();
-         Parallel_CahnHill3D(int N1x, int N1y, int N1z, int px,int py,int pz);
         ~Parallel_CahnHill3D();
          void  Initialize_parallel(MPI_Comm new_comm);
          void  ExchangeData(MPI_Comm new_comm, double ***array);
 
          void  ComputeLaplacianBase_p(MPI_Comm new_comm);
-
+         double g(double phi);
          void  setSecond_laplacian(MPI_Comm new_comm);
          void  FiniteDifferenceScheme_p(MPI_Comm new_comm);
          void  UpdateSolution_p(MPI_Comm new_comm);
          void  WriteToFile_MPI(MPI_Comm new_comm);
          void  ProcessRank(MPI_Comm new_comm, int* newcoords);
-   
+         void Read_input_parameters(int *integers, double *rationals);
          void  parallel_solver();
          void  WriteToFile(MPI_Comm new_comm);
          void  ReadFile(std::ifstream& infile);

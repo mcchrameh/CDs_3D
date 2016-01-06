@@ -14,6 +14,8 @@
 #include <time.h>
 #include <assert.h>
 #include "mpi.h"
+#include "omp.h"
+#define N_Threads 4
 #define Random_min  -0.05 //-0.25 // for mim random number generator
 #define Random_max  0.05 //0.25
 #define PHI(i,j,k)         PHI[i][j][k]
@@ -26,6 +28,7 @@
 #define PHI_p(i,j,k)       PHI_p[i][j][k]
 #define Nzdir 100
 #define Nydir 100
+#define MAX_LINE_LENGTH  80 //used for reading the variables line by line in the input file
 #define Q(i,j,k)  Q[((k) + (Nzdir) * ((j) + (Nydir) * (i)))] //use to write to file
 //#define Q1(i,j,k)  Q1[((k) + (Nzdir) * ((j) + (Nydir) * (i)))] 
 using namespace std;
@@ -42,7 +45,7 @@ CahnHill3D::CahnHill3D()
 CahnHill3D::CahnHill3D(int Nx, int Ny, int Nz)
         {
                                       
-	  nx=Nx;ny=Ny;nz=Nz;delta_x=1.0;delta_y=1.0; delta_t =0.001;M =1.0;b=M;k=M, u=0.5;
+      	  nx=Nx;ny=Ny;nz=Nz;delta_x=1.0;delta_y=1.0; delta_t =0.001;M =1.0;b=M;k=M, u=0.5;
           C1=6.0/80.0; C2=3.0/80.0; C3=1.0/80.0; //C1=1.0/6, C2=1.0/12
           dxx = delta_x;
           B=0.005; D=0.5;A=1.3;v=1.5;tau=0.36;F=0.45;r=0.5;
@@ -212,7 +215,7 @@ void CahnHill3D::initialCondition()
 
 
 }
-
+ 
 
 double CahnHill3D::g(double phi)
 {
@@ -473,13 +476,28 @@ void CahnHill3D::ReadFilein(std::ifstream& infile)
   }
                    
 
-Parallel_CahnHill3D::Parallel_CahnHill3D(int N1x,int N1y, int N1z,int px,int py,int pz): CahnHill3D(N1x, N1y, N1z)
+Parallel_CahnHill3D::Parallel_CahnHill3D()//: CahnHill3D(N1x, N1y, N1z)
 {
     MPI_Comm_rank(MPI_COMM_WORLD, &rank);
     MPI_Comm_size(MPI_COMM_WORLD, &size);
+    C1=6.0/80.0; C2=3.0/80.0; C3=1.0/80.0;
     tag =1;
-    Procx=px; Procy=py; Procz =pz;   
-    Nx = N1x; Ny=N1y; Nz=N1z;
+    double rationals[10];
+    int integers[6];
+    if(rank==0)
+    {
+     Read_input_parameters(integers, rationals);
+    }
+    MPI_Bcast(integers,6,MPI_INT,0,MPI_COMM_WORLD);
+    MPI_Bcast(rationals,10,MPI_DOUBLE,0,MPI_COMM_WORLD);
+     
+    Nx = integers[0]; Ny=integers[1]; Nz=integers[2];
+    Procx=integers[3]; Procy=integers[4]; Procz =integers[5];
+    M = rationals[0]; u=rationals[1]; B = rationals[2]; 
+    D = rationals[3]; A=rationals[4]; v = rationals[5];
+    tau= rationals[6]; F=rationals[7]; r=rationals[8];
+    Max_time_iteration=rationals[9];
+      
     int coords[3], dims[3], periods[3];
     MPI_Comm new_comm =CreatCartesianTopology();
     MPI_Comm_rank(new_comm,&my3drank);
@@ -673,6 +691,13 @@ Parallel_CahnHill3D::~Parallel_CahnHill3D()
 
     std::cout<<"Destructor called"<<std::endl;
 }
+double Parallel_CahnHill3D::g(double phi)
+{
+    double q=0.0;
+    q=(1.0 + tau - A*pow((1.0-2.0*F),2))*phi-v*(1.0-2.0*F)*pow(phi,2)-u*pow(phi,3);
+    // q = A*phi- (A/3.0)*pow(phi,3); // map from paper
+    return q;
+}    
 
 
 void Parallel_CahnHill3D::Initialize_parallel(MPI_Comm new_comm)
@@ -693,17 +718,70 @@ void Parallel_CahnHill3D::Initialize_parallel(MPI_Comm new_comm)
                     double range =Random_max-Random_min;
                     double div =RAND_MAX / range;
                     PHI_old_p[i][j][k]=Random_min + (rand()/div);
-                    if(rank==2)
-                      {
-                       printf("Rank=%d, Phi_old[%d][%d][%d]=%lf\t",rank, i,j,k,PHI_old_p[i][j][k]);
-                      }
+                   // if(rank==2)
+                     // {
+                      // printf("Rank=%d, Phi_old[%d][%d][%d]=%lf\t",rank, i,j,k,PHI_old_p[i][j][k]);
+                     // }
                   }
                 }
             }
 
  std::cout<<" intialize data structure"<<std::endl;
 
-}  
+} 
+
+void Parallel_CahnHill3D::Read_input_parameters(int *integers, double *rationals)
+  {
+    FILE* file;
+    char Data[MAX_LINE_LENGTH];
+    if((file=fopen("ParameterFile.dat","r"))==NULL)
+    {
+      printf("Error opening ParameterFile.dat\n");
+      return;
+    }
+    
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%d\n",&integers[0]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%d\n",&integers[1]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%d\n",&integers[2]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%d\n",&integers[3]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%d\n",&integers[4]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%d\n",&integers[5]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[0]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[1]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[2]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[3]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[4]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[5]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[6]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[7]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[8]);
+    fgets(Data,MAX_LINE_LENGTH,file);
+    fscanf(file,"%lf\n",&rationals[9]);
+            
+    //fgets(Data,MAX_LINE_LENGTH,file);
+    //fscanf(file,"%le\n",&conf[0]);
+   // fgets(Data,MAX_LINE_LENGTH,file);
+    //fscanf(file,"%le",&conf[1]);
+
+  fclose(file);
+    
+    
+} 
 
 MPI_Comm Parallel_CahnHill3D:: CreatCartesianTopology()
     {
@@ -796,11 +874,12 @@ void Parallel_CahnHill3D:: UpdateSolution_p(MPI_Comm new_comm)
       // Initialize_parallel();
        MPI_Comm new_comm;
        new_comm = CreatCartesianTopology();
-     //  Initialize_parallel(new_comm);
+      // Initialize_parallel(new_comm);
       // ReadFile_MPI(new_comm);
        int count =0;
        double t =0.0;
-        while(t<102)
+       printf("In parallel solver with Maximum iteration=%lf\n",Max_time_iteration);
+        while(t<Max_time_iteration)
          {
            ExchangeData( new_comm, PHI_old_p);
            ComputeLaplacianBase_p(new_comm);
@@ -809,7 +888,7 @@ void Parallel_CahnHill3D:: UpdateSolution_p(MPI_Comm new_comm)
     //       ExchangeData(new_comm,Laplacian2_p);
            FiniteDifferenceScheme_p(new_comm);
            UpdateSolution_p(new_comm);
-            if(t==99)
+            if(t==999)
                {
                   WriteToFile(new_comm);
                   WriteToFile_MPI(new_comm);
@@ -1433,7 +1512,11 @@ void Parallel_CahnHill3D::ComputeLaplacianBase_p(MPI_Comm new_comm)
     // printf("rank=%d,phi(0,0,0)=%lf\n",my3drank,PHI_old_p(0,0,0));
           
           setIndex_p(1,nlocaly);
-          for(int i=1;i<=nlocalx;i++)
+        int i;
+   #pragma omp parallel private(i,AP,BP,CP,ATP) num_threads(N_Threads)
+   {
+     #pragma omp for  
+          for( i=1;i<=nlocalx;i++)
             {
              for(int j=1;j<=nlocaly;j++)
                {
@@ -1457,7 +1540,7 @@ void Parallel_CahnHill3D::ComputeLaplacianBase_p(MPI_Comm new_comm)
                       + PHI_old_p(i+1,down1x[j],down1x[k]) + PHI_old_p(i+1,up1x[j], down1x[k])
                       + PHI_old_p(i+1,down1x[j],up1x[k]) + PHI_old_p(i+1,up1x[j],up1x[k]));
                  ATP = AP + BP + CP;
-                 gamma_p(i,j,k)= CahnHill3D::g(PHI_old_p(i,j,k))-PHI_old_p(i,j,k) + D*(ATP-PHI_old_p(i,j,k));
+                 gamma_p(i,j,k)= g(PHI_old_p(i,j,k))-PHI_old_p(i,j,k) + D*(ATP-PHI_old_p(i,j,k));
                //  printf("rank=%d: gamma_p(%d,%d,%d)=%lf\n",my3drank,i,j,k,gamma_p(i,j,k));
 
             
@@ -1465,11 +1548,16 @@ void Parallel_CahnHill3D::ComputeLaplacianBase_p(MPI_Comm new_comm)
               }
             }
              printf("rank=%d,phi(0,0,0)=%lf\n",my3drank,PHI_old_p(0,0,0));
+   }
      }
   else
   {   
-    printf("C1=%lf, C2=%lf, C3=%lf, D=%lf\n",CahnHill3D::C1,C2,C3,D);
-      for(int i=1;i<=nlocalx;i++)
+   // printf("C1=%lf, C2=%lf, C3=%lf, D=%lf\n",CahnHill3D::C1,C2,C3,D);
+   int i;
+   #pragma omp parallel private(i,AP,BP,CP,ATP) num_threads(N_Threads)
+   {
+     #pragma omp for
+      for( i=1;i<=nlocalx;i++)
          {
           for(int j=1;j<=nlocaly;j++)
             {
@@ -1491,7 +1579,7 @@ void Parallel_CahnHill3D::ComputeLaplacianBase_p(MPI_Comm new_comm)
                       + PHI_old_p(i+1,j-1,k-1) + PHI_old_p(i+1,j+1, k-1)
                       + PHI_old_p(i+1,j-1,k+1) + PHI_old_p(i+1,j+1,k+1));
                  ATP = AP + BP + CP;
-                 gamma_p(i,j,k)= CahnHill3D::g(PHI_old_p(i,j,k))-PHI_old_p(i,j,k) + D*(ATP-PHI_old_p(i,j,k));
+                 gamma_p(i,j,k)= g(PHI_old_p(i,j,k))-PHI_old_p(i,j,k) + D*(ATP-PHI_old_p(i,j,k));
              /*    if(my3drank==0)
                   {
                     printf("gamma_p(%d,%d,%d)=%lf\n",i,j,k,gamma_p(i,j,k));
@@ -1504,6 +1592,7 @@ void Parallel_CahnHill3D::ComputeLaplacianBase_p(MPI_Comm new_comm)
             }
 
    }
+  }
 
     }
 
@@ -1520,7 +1609,11 @@ void Parallel_CahnHill3D::setSecond_laplacian(MPI_Comm new_comm)
          printf("In second laplacian Pz=1\n");
         
            setIndex_p(1,nlocaly);
-            for(int i=1;i<=nlocalx;i++)            
+           int i;
+      #pragma omp parallel private(i,AP,BP,CP) num_threads(N_Threads)
+        {
+          #pragma omp for
+            for( i=1;i<=nlocalx;i++)            
               {                                   
                for(int j=1;j<=nlocaly;j++)        
                  {                                
@@ -1550,11 +1643,16 @@ void Parallel_CahnHill3D::setSecond_laplacian(MPI_Comm new_comm)
                      }
                  }
                }
+        }
        }
 
 else
-   {                                         
-      for(int i=1;i<=nlocalx;i++)            
+   {   
+     int i;
+   #pragma omp parallel private(i,AP,BP,CP) num_threads(N_Threads)
+    {
+     #pragma omp for                                      
+      for( i=1;i<=nlocalx;i++)            
          {                                   
           for(int j=1;j<=nlocaly;j++)        
             {                                
@@ -1581,6 +1679,7 @@ else
           }
         }
     }
+   }
    }
 
 void Parallel_CahnHill3D::WriteToFile(MPI_Comm new_comm)

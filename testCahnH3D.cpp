@@ -38,7 +38,7 @@ int main(int argc, char **argv)
   
  
    
- Parallel_CahnHill3D  ParVer( 8,8,8, 2,2,2 );
+ Parallel_CahnHill3D  ParVer;
  
  t1 = MPI_Wtime();
  ParVer.ReadFile(file);

@@ -2,9 +2,9 @@
 #include <stdlib.h>
 #include <math.h>
 
-#define NX 128 
-#define NY 128
-#define NZ 128
+#define NX 1024//128 
+#define NY 1024//128
+#define NZ 1024//128
 
 #define IMG(cdsp, i, j ,k) (((cdsp) + (NZ*NY*(i))+NZ*j)[k])
 
