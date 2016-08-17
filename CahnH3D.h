@@ -80,7 +80,7 @@ class Parallel_CahnHill3D//: public  CahnHill3D
         ~Parallel_CahnHill3D();
          void  Initialize_parallel(MPI_Comm new_comm);
          void  ExchangeData(MPI_Comm new_comm, double ***array);
-
+         void ExchangeData_second(MPI_Comm new_comm, double ***array);
          void  ComputeLaplacianBase_p(MPI_Comm new_comm);
          double g(double phi);
          void  setSecond_laplacian(MPI_Comm new_comm);
