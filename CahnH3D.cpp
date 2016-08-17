@@ -881,9 +881,9 @@ void Parallel_CahnHill3D:: UpdateSolution_p(MPI_Comm new_comm)
        printf("In parallel solver with Maximum iteration=%lf\n",Max_time_iteration);
         while(t<Max_time_iteration)
          {
-           ExchangeData( new_comm, PHI_old_p);
+           ExchangeData_Second( new_comm, PHI_old_p);
            ComputeLaplacianBase_p(new_comm);
-           ExchangeData(new_comm,gamma_p);
+           ExchangeData_Second(new_comm,gamma_p);
            setSecond_laplacian(new_comm);
     //       ExchangeData(new_comm,Laplacian2_p);
            FiniteDifferenceScheme_p(new_comm);
@@ -903,6 +903,179 @@ void Parallel_CahnHill3D:: UpdateSolution_p(MPI_Comm new_comm)
          FreeCommunicator(new_comm);
 
      }
+ 
+void Parallel_CahnHill3D::ExchangeData_second(MPI_Comm new_comm, double ***array)
+{
+
+       MPI_Status status;
+       int coords[3];
+       MPI_Comm_rank(new_comm,&my3drank);
+       MPI_Cart_coords(new_comm,my3drank,3,coords);
+       int dims[3], periods[3];
+
+       MPI_Cart_get (new_comm,3,dims,periods, coords );
+
+       //-------Exchange along Z direction----------------/
+//MPI_Wait(&request,&status);
+      MPI_Cart_get (new_comm,3,dims,periods, coords );
+     if(dims[2]>1)
+       { 
+ 
+       for(int i=1;i<=nlocalx;i++)
+         {
+          for(int j=1;j<=nlocaly;j++)
+             {
+               matrix_inner_oyx[(i-1)*nlocaly +(j-1)]=array[i][j][nlocalz];
+               matrix_outer_oyx[(i-1)*nlocaly +(j-1)]=array[i][j][1];
+             }
+          }
+      MPI_Comm_rank(new_comm,&my3drank);
+       MPI_Cart_coords(new_comm,my3drank,3,coords);
+  //   if((coords[2]>1)&&(coords[2]<dims[2]-1))
+  //    {
+       MPI_Cart_shift( new_comm, 2, 1, &outer_nbr, &inner_nbr );
+     
+     
+       MPI_Sendrecv_replace(matrix_inner_oyx, nlocalx*nlocaly,  MPI_DOUBLE, inner_nbr, tag,
+                             outer_nbr,tag, new_comm,&status);
+       MPI_Sendrecv_replace(matrix_outer_oyx, nlocalx*nlocaly,  MPI_DOUBLE, outer_nbr, tag,
+                            inner_nbr,tag, new_comm,&status);
+
+    
+       //fill ghost points
+       for(int i=1;i<=nlocalx;i++)
+        {
+            for(int j=1;j<=nlocaly;j++)
+            {
+                array[i][j][0]=matrix_inner_oyx[(i-1)*nlocaly +(j-1)];
+                array[i][j][nlocalz+1]=matrix_outer_oyx[(i-1)*nlocaly +(j-1)];
+               // if(my3drank==2)
+              //  printf("check transfer alomg z: matrix[%d]=%lf\n",(i-1)*nlocaly +(j-1),matrix_inner_oyx[(i-1)*nlocaly +(j-1)]);              
+                  
+            }
+        }
+      }
+//---------End Exchange along Z----------/
+
+//------Exchange along Y -------------------/
+
+     MPI_Cart_get (new_comm,3,dims,periods, coords );
+  if(dims[1]>1)
+   {
+
+     
+       for(int i=1;i<=nlocalx;i++) 
+          {
+          
+            for(int k=0;k<=nlocalz+1;k++) 
+               {
+                 matrix_right_oxz[(i-1)*(nlocalz+1) +(k)]=array[i][nlocaly][k];
+               }
+          }
+
+        for(int i=1;i<=nlocalx;i++)
+          {
+
+            for(int k=0;k<=nlocalz+1;k++)
+               {
+                 matrix_left_oxz[(i-1)*(nlocalz+1) +(k)]=array[i][1][k];
+               }
+          }
+  
+     //---------ME send last values to right neighbor and recieve last values from left neighbor along the y axis---------
+        MPI_Comm_rank(new_comm,&my3drank);
+       MPI_Cart_coords(new_comm,my3drank,3,coords);
+       
+        MPI_Cart_shift( new_comm, 1, 1, &left_nbr, &right_nbr ); //move along the y axis
+       
+       
+       MPI_Sendrecv_replace(matrix_right_oxz, (nlocalz+1)*nlocalx,  MPI_DOUBLE, right_nbr, tag,
+                            left_nbr,tag, new_comm,&status);
+       MPI_Sendrecv_replace(matrix_left_oxz, (nlocalz+1)*nlocalx,  MPI_DOUBLE, left_nbr, tag,
+                            right_nbr,tag, new_comm,&status);
+       
+    
+       
+     //---------ME send first values to left neighbor and recieve first values from right neighbor along the y axis---------
+         
+     
+       
+    //----Copy recieved data into ghost points ---------/ 
+      for(int i=1;i<=nlocalx;i++)
+        {
+         for(int k=0;k<=nlocalz+1;k++)
+           {
+             array[i][nlocaly+1][k]=matrix_left_oxz[(i-1)*(nlocalz+1) +(k)];
+            array[i][0][k]=matrix_right_oxz[(i-1)*(nlocalz+1) +(k)];
+          }
+         }
+
+ }
+
+   //------------Exchange along X direction-------------------------------------------------------------/
+ if(dims[0]>1)
+ { 
+  for(int j=0;j<=nlocaly+1;j++)
+          {
+            
+            for(int k=0;k<=nlocalz+1;k++)
+               { 
+                 matrix_north_oyz[(j)*(nlocalz+1) +(k)]=array[1][j][k];
+               }
+          }
+   
+  for(int j=0;j<=nlocaly+1;j++)
+          {
+ 
+            for(int k=0;k<=nlocalz+1;k++)
+               {
+                 matrix_south_oyz[(j)*(nlocalz+1) +(k)]=array[nlocalx][j][k];
+               //    if(my3drank==size-1)
+                //   printf("array[%d][%d][%d]=%lf\n",nlocalx,j,k,array[nlocalx][j][k]);
+               }
+          }
+
+     MPI_Comm_rank(new_comm,&my3drank);
+     MPI_Cart_coords(new_comm,my3drank,3,coords);
+ //  if((coords[0]>1)&&(coords[0]<dims[0]-1))
+ //  {
+     MPI_Cart_shift( new_comm, 0, 1, &up_nbr, &down_nbr );
+
+ /*---------ME send first values to north  neighbor and recieve firt values from south neighbor along the x axis---------*/
+
+  
+   
+   
+   MPI_Sendrecv_replace(matrix_north_oyz, (nlocaly+2)*(nlocalz+2),  MPI_DOUBLE, up_nbr, tag,
+                       down_nbr,tag, new_comm,&status);
+     
+   MPI_Sendrecv_replace(matrix_south_oyz, (nlocaly+2)*(nlocalz+2),  MPI_DOUBLE, down_nbr, tag,
+                        up_nbr,tag, new_comm,&status);
+  
+
+ /*------Copy values into ghost cells---------------*/
+  
+  for(int j=0;j<=nlocaly+1;j++)                                
+        {                                                       
+         for(int k=0;k<=nlocalz+1;k++)                            
+           {                                                    
+            array[nlocalx+1][j][k]=matrix_north_oyz[(j)*(nlocalz+1) +(k)];
+            array[0][j][k]=matrix_south_oyz[(j)*(nlocalz+1) +(k)];
+                                                                
+           }                                                    
+         } 
+
+
+    
+  }  
+  MPI_Barrier(new_comm);
+  //----------------END along X----------------------------------------------------------------
+
+
+
+
+}
+
 
 
 void Parallel_CahnHill3D::ExchangeData(MPI_Comm new_comm, double ***array)
