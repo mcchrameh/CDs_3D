@@ -1886,16 +1886,20 @@ void Parallel_CahnHill3D::WriteToFile(MPI_Comm new_comm)
 
 void Parallel_CahnHill3D::WriteToFile_MPI(MPI_Comm new_comm)
   {
-         MPI_Status status; 
+        MPI_Status status; 
         MPI_File     fh;  
-        MPI_Datatype filetype;
+        MPI_Datatype filetype;//, memtype;
        int dims[3],coords[3], periods[3], start_indices[3], localsizes[3];
-       //int globalsizes[3],localsizes[3],memsizes[3];
-       //globalsizes[0]=Nx;
-       //globalsizes[1]=Ny;
-       //globalsizes[2]=Nz;
+       int globalsizes[3];//,memsizes[3];
+       globalsizes[0]=Nx;
+       globalsizes[1]=Ny;
+       globalsizes[2]=Nz;
        //localsizes[0]=nlocalx; localsizes[1]=nlocaly; localsizes[2]=nlocalz;
-       localsizes[0]=(Nx/Procx)+Nx%Procx; localsizes[1]=(Ny/Procy) + Ny%Procy; localsizes[2]=(Nz/Procz)+Nz%Procz;
+       localsizes[0]=(Nx/Procx); localsizes[1]=(Ny/Procy) ; localsizes[2]=(Nz/Procz);
+      //int local_array_size=localsizes[0]*localsizes[1]*localsizes[2];
+      int local_array_size =nlocalx*nlocaly*nlocalz;
+      
+     /*
       int  array_of_gsizes[3], array_of_distribs[3],array_of_dargs[3], array_of_psizes[3];
       for(int i=0;i<3;i++)
       {
@@ -1906,7 +1910,7 @@ void Parallel_CahnHill3D::WriteToFile_MPI(MPI_Comm new_comm)
           
       }
      array_of_psizes[0] =Procx; array_of_psizes[1] =Procy; array_of_psizes[2] =Procz;
-      
+     */ 
       
        MPI_Cart_get (new_comm,3,dims,periods, coords );
        MPI_Comm_rank(new_comm, &my3drank);
@@ -1917,27 +1921,48 @@ void Parallel_CahnHill3D::WriteToFile_MPI(MPI_Comm new_comm)
        start_indices[1]=coords[1]*localsizes[1];
        start_indices[2]=coords[2]*localsizes[2];
        printf("rank=%d,r=%d,start_indices=(%d,%d,%d)\n",my3drank,Nx%Procx,start_indices[0],start_indices[1],start_indices[2]);     
+  
+       MPI_Type_create_subarray(3, globalsizes, localsizes, start_indices,MPI_ORDER_C, MPI_DOUBLE, &filetype);
+                    
       
+     //MPI_Type_create_darray(size, my3drank, 3,array_of_gsizes, array_of_distribs, array_of_dargs, array_of_psizes, MPI_ORDER_C, MPI_DOUBLE, &filetype);
       
-     // MPI_Type_create_subarray(3, globalsizes, localsizes, start_indices,MPI_ORDER_C, MPI_DOUBLE, &filetype);
+        MPI_Type_commit(&filetype);
       
-      
-     MPI_Type_create_darray(size, my3drank, 3,array_of_gsizes, array_of_distribs, array_of_dargs, array_of_psizes, MPI_ORDER_C, MPI_DOUBLE, &filetype);
-      
-       MPI_Type_commit(&filetype);
-       
+              
         char outputfilename[]="datafile_mpi";
         char filememview[]="native";     
-       MPI_File_open(new_comm, outputfilename, MPI_MODE_CREATE | MPI_MODE_WRONLY,MPI_INFO_NULL, &fh); 
-       MPI_File_set_view(fh, 0, MPI_DOUBLE, filetype, filememview,MPI_INFO_NULL);
+       MPI_File_open(new_comm, outputfilename, MPI_MODE_CREATE | MPI_MODE_WRONLY,MPI_INFO_NULL, &fh);
+       
+          
+        MPI_File_set_view(fh, 0, MPI_DOUBLE, filetype, filememview,MPI_INFO_NULL);
+     /* Use this if you want to copy data PHI_p to file. It considers ghost point.
+     
+        memsizes[0]=nlocalx + 2;
+        memsizes[1]=nlocaly + 2;
+        memsizes[2]=nlocalz + 2;            
+    
+       start_indices[0]=1;
+       start_indices[1]=1;
+       start_indices[2]=1;
+     printf("TESTING MPI IO\n");
+      MPI_Type_create_subarray(3, memsizes, localsizes, start_indices,MPI_ORDER_C, MPI_DOUBLE, &memtype);
+      
+        MPI_Type_commit(&memtype);
+  
+      MPI_File_write_all(fh, PHI_p,1 , memtype, &status);
+    */
+      MPI_File_write_all(fh, PHI_local_result,local_array_size , MPI_DOUBLE, &status);
      //  MPI_File_write(fh, PHI_p, nlocalx*nlocaly*nlocalz, MPI_DOUBLE, &status);
-       MPI_File_write(fh, PHI_local_result, nlocalx*nlocaly*nlocalz, MPI_DOUBLE, &status);
+   //    MPI_File_write(fh, PHI_local_result, nlocalx*nlocaly*nlocalz, MPI_DOUBLE, &status);
       
 
        MPI_File_close(&fh);
-       MPI_Barrier(new_comm);
+     //  MPI_Barrier(new_comm);
+     
        MPI_Type_free(&filetype);
-        
+          
+     
   }
 void Parallel_CahnHill3D::ReadFile_MPI(MPI_Comm new_comm)
   {
